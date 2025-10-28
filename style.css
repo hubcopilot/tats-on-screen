@@ -20,7 +20,7 @@ body {
 
 #tattoo-svg {
   position: absolute;
-  top: 260px;   /* vertical placement (moves tattoo up/down) */
+  top: -260px;   /* vertical placement (moves tattoo up/down) */
   left: 95px;   /* horizontal placement (moves tattoo left/right) */
   width: 180px; /* size of the infinity symbol */
   height: 90px;
