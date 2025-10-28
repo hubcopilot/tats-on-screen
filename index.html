@@ -4,12 +4,11 @@
   <meta charset="UTF-8">
   <title>Infinity Tattoo Overlay</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Load Twitch tmi.js -->
   <script src="https://cdn.jsdelivr.net/npm/tmi.js/dist/tmi.min.js"></script>
 </head>
 <body>
   <div id="overlay">
-    <!-- Main hand image from StreamElements, fallback = wrist.png -->
+    <!-- StreamElements hand image (main) with fallback to wrist.png -->
     <img id="wrist" 
       src="https://streamelements.com/overlay/69000c1190039087f539f481/h_7fR-Y2S5kwGbqwqnyrQfq4tQzSAaGmlET6-RLovFf1TfdJ"
       alt="hand overlay"
@@ -25,7 +24,7 @@
       <circle id="needle" r="6" fill="red" opacity="0"/>
     </svg>
 
-    <!-- Progress text -->
+    <!-- Progress label -->
     <div id="progress-label">Tattoo Progress: 0 / 20</div>
   </div>
   <script src="script.js"></script>
