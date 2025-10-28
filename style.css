@@ -22,7 +22,7 @@ body {
   position: absolute;
   top: 330px;   /* keep the same height */
   left: 120px;  /* move tattoo more to the right */
-  width: 170px; /* slightly wider to balance across wrist */
+  width: 160px; /* slightly wider to balance across wrist */
   height: 90px;
 }
 
