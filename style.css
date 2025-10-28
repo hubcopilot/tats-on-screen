@@ -20,7 +20,7 @@ body {
 
 #tattoo-svg {
   position: absolute;
-  top: 160px;   /* adjust until it sits properly on wrist */
+  top: 500px;   /* adjust until it sits properly on wrist */
   left: 130px;
   width: 240px;
   height: 120px;
