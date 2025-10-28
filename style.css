@@ -9,7 +9,7 @@ body {
 
 #overlay {
   position: relative;
-  width: 400px;   /* size of the hand image */
+  width: 500px;   /* size of the hand image */
   text-align: center;
 }
 
