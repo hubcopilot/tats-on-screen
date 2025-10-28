@@ -9,7 +9,7 @@ body {
 
 #overlay {
   position: relative;
-  width: 500px;   /* size of the hand image */
+  width: 400px;   /* size of the hand image */
   text-align: center;
 }
 
@@ -21,8 +21,8 @@ body {
 #tattoo-svg {
   position: absolute;
   top: 330px;   /* keep the same height */
-  left: 140px;  /* move tattoo more to the right */
-  width: 180px; /* slightly wider to balance across wrist */
+  left: 120px;  /* move tattoo more to the right */
+  width: 170px; /* slightly wider to balance across wrist */
   height: 90px;
 }
 
