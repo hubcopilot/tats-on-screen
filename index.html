@@ -9,12 +9,13 @@
 </head>
 <body>
   <div id="overlay">
-    <!-- Owned StreamElements hand image -->
+    <!-- Main hand image from StreamElements, fallback = wrist.png -->
     <img id="wrist" 
       src="https://streamelements.com/overlay/69000c1190039087f539f481/h_7fR-Y2S5kwGbqwqnyrQfq4tQzSAaGmlET6-RLovFf1TfdJ"
-      alt="hand overlay">
+      alt="hand overlay"
+      onerror="this.onerror=null; this.src='wrist.png';">
 
-    <!-- Tattoo SVG -->
+    <!-- Infinity Tattoo SVG -->
     <svg id="tattoo-svg" viewBox="0 0 200 100">
       <path id="infinity" 
             d="M20,50 C20,20 80,20 100,50 
