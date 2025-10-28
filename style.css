@@ -9,7 +9,7 @@ body {
 
 #overlay {
   position: relative;
-  width: 500px;   /* adjust size */
+  width: 500px;
   text-align: center;
 }
 
@@ -20,8 +20,8 @@ body {
 
 #tattoo-svg {
   position: absolute;
-  top: 160px;   /* adjust Y to match wrist */
-  left: 130px;  /* adjust X to match wrist */
+  top: 160px;   /* adjust until it sits properly on wrist */
+  left: 130px;
   width: 240px;
   height: 120px;
 }
