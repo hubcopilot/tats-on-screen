@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Infinity Tattoo Overlay</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Load Twitch tmi.js -->
+  <script src="https://cdn.jsdelivr.net/npm/tmi.js/dist/tmi.min.js"></script>
+</head>
+<body>
+  <div id="overlay">
+    <!-- Owned StreamElements hand image -->
+    <img id="wrist" 
+      src="https://streamelements.com/overlay/69000c1190039087f539f481/h_7fR-Y2S5kwGbqwqnyrQfq4tQzSAaGmlET6-RLovFf1TfdJ"
+      alt="hand overlay">
+
+    <!-- Tattoo SVG -->
+    <svg id="tattoo-svg" viewBox="0 0 200 100">
+      <path id="infinity" 
+            d="M20,50 C20,20 80,20 100,50 
+               C120,80 180,80 180,50 
+               C180,20 120,20 100,50 
+               C80,80 20,80 20,50 Z"/>
+      <circle id="needle" r="6" fill="red" opacity="0"/>
+    </svg>
+
+    <!-- Progress text -->
+    <div id="progress-label">Tattoo Progress: 0 / 20</div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
