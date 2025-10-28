@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#overlay {
+  position: relative;
+  width: 500px;   /* adjust size */
+  text-align: center;
+}
+
+#wrist {
+  width: 100%;
+  display: block;
+}
+
+#tattoo-svg {
+  position: absolute;
+  top: 160px;   /* adjust Y to match wrist */
+  left: 130px;  /* adjust X to match wrist */
+  width: 240px;
+  height: 120px;
+}
+
+path {
+  fill: none;
+  stroke: hotpink;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-dasharray: var(--pathLength);
+  stroke-dashoffset: var(--pathLength);
+  transition: stroke-dashoffset 0.5s linear;
+}
+
+#needle {
+  transition: opacity 0.5s ease;
+}
+
+#progress-label {
+  margin-top: 8px;
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 8px hotpink;
+}
+
+/* Pain effect */
+.shake {
+  animation: shake 0.4s ease;
+  filter: drop-shadow(0 0 12px hotpink);
+}
+@keyframes shake {
+  0% { transform: translate(0,0) rotate(0deg); }
+  25% { transform: translate(-4px,2px) rotate(-2deg); }
+  50% { transform: translate(4px,-2px) rotate(2deg); }
+  75% { transform: translate(-3px,3px) rotate(-1deg); }
+  100% { transform: translate(0,0) rotate(0deg); }
+}
